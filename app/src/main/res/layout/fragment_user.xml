@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--选项-->
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tv_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="github数据分析"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/user_select_up" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp">
+        <!--语言条形图-->
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/hbc_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"/>
+
+        <!--性别饼状图-->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pc_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"/>
+
+        <!--分布地区-->
+        <include layout="@layout/layout_user_area"/>
+
+        <!--语言条形图-->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bc_organization"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"/>
+
+
+        <!--用户、项目增长折线图-->
+        <LinearLayout
+            android:id="@+id/ll_user_program"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:visibility="gone">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lc_user_program"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

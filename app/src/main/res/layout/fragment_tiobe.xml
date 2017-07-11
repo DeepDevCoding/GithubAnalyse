@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--列表属性-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2017"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDeep"/>
+        <TextView
+            android:id="@+id/tv_old_year"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="right"
+            android:text="2016"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDeep"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Language"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDeep"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="Ratings"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDeep"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:text="Change"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreenDeep"/>
+    </LinearLayout>
+
+    <!--排行列表-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tiobe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

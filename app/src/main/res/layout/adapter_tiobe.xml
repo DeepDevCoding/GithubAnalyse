@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_rank"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_old_rank"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/iv_change"
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/colorGreen"/>
+        <TextView
+            android:id="@+id/tv_ratings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="6dp"
+            android:background="@color/colorBlue"/>
+        <TextView
+            android:id="@+id/tv_change"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:background="@color/colorYellow"/>
+    </LinearLayout>
+    <View style="@style/CutLine"/>
+
+</LinearLayout>

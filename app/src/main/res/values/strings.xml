@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GithubAnalyse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_te">The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</string>
+</resources>

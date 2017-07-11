@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="GithubStore"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.huabing.githubanalyse.Bean.AllLanguage"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.C"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Cplus"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Java"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.JavaScript"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Python"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Swift"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Php"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Ruby"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Collection"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Mine"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Tiobe"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Pypl"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Lang"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Ide"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Ode"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.Db"></mapping>
+        <mapping class="com.huabing.githubanalyse.Bean.News"></mapping>
+    </list>
+</litepal>
